@@ -1,4 +1,4 @@
-const SERVICE_WORKER_PATH = location.hostname === 'michael-levitski.github.io' ? '/reservations/sw.js' : '/sw.js'
+const SERVICE_WORKER_PATH = location.hostname === 'regbadminton.github.io' ? '/reservations/sw.js' : '/sw.js'
 const button = document.createElement('a')
 let deferredPrompt
 let prompted = false
