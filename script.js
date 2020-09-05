@@ -32,6 +32,7 @@ addEventListener('beforeinstallprompt', e => {
 
 if ('serviceWorker' in navigator) {
     button.textContent = 'Open App'
+    document.title = 'Open App'
     button.href = './reservations.html'
     document.body.appendChild(button)
 
