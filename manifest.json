@@ -1,1 +1,22 @@
-{"name":"Reservations","short_name":"Gym Reservations","start_url":"reservations.html","display":"standalone","background_color":"#ffffff","theme_color":"#ffffff","orientation":"any","icons":[{"src":"192.png","sizes":"192x192","type":"image/png"},{"src":"512.png","sizes":"512x512","type":"image/png"}]}
+{
+  "name": "Reservations",
+  "short_name": "Gym Reservations",
+  "start_url": "reservations.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "orientation": "any",
+  "icons": [
+    { "src": "192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "512.png", "sizes": "512x512", "type": "image/png" }
+  ],
+  "shortcuts": [
+    {
+      "name": "View Client Profile",
+      "short_name": "Profile",
+      "description": "View Client Profile",
+      "url": "profile.html",
+      "icons": [{ "src": "profile.png", "sizes": "192x192" }]
+    }
+  ]
+}
